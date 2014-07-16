@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont ttLibVersion="2.4">
+
+  <post>
+    <formatType value="2.0"/>
+    <italicAngle value="0.0"/>
+    <underlinePosition value="0"/>
+    <underlineThickness value="0"/>
+    <isFixedPitch value="0"/>
+    <minMemType42 value="0"/>
+    <maxMemType42 value="0"/>
+    <minMemType1 value="0"/>
+    <maxMemType1 value="0"/>
+    <psNames>
+      <!-- This file uses unique glyph names based on the information
+           found in the 'post' table. Since these names might not be unique,
+           we have to invent artificial names in case of clashes. In order to
+           be able to retain the original information, we need a name to
+           ps name mapping for those cases where they differ. That's what
+           you see below.
+            -->
+    </psNames>
+    <extraNames>
+      <!-- following are the name that are not taken from the standard Mac glyph order -->
+      <psName name="uni00AD"/>
+      <psName name="uni00B2"/>
+      <psName name="uni00B3"/>
+      <psName name="uni00B5"/>
+      <psName name="uni00B9"/>
+      <psName name="longs"/>
+      <psName name="gravecomb"/>
+      <psName name="acutecomb"/>
+      <psName name="uni0302"/>
+      <psName name="tildecomb"/>
+      <psName name="uni0304"/>
+      <psName name="uni0308"/>
+      <psName name="uni030A"/>
+      <psName name="uni030C"/>
+      <psName name="uni0327"/>
+      <psName name="uni1E9E"/>
+      <psName name="afii61664"/>
+      <psName name="afii301"/>
+      <psName name="Euro"/>
+      <psName name="uni20B0"/>
+      <psName name="uni2114"/>
+      <psName name="afii61352"/>
+      <psName name="uni2133"/>
+      <psName name="uni2725"/>
+      <psName name="uni338F"/>
+      <psName name="uniA75B"/>
+      <psName name="uniF520"/>
+      <psName name="uniF522"/>
+      <psName name="uniFB00"/>
+      <psName name="uniFB01"/>
+      <psName name="uniFB02"/>
+      <psName name="uniFB03"/>
+      <psName name="uniFB04"/>
+      <psName name="uniFB05"/>
+      <psName name="m_uni0304"/>
+      <psName name="n_uni0304"/>
+      <psName name="longs_h"/>
+      <psName name="longs_i"/>
+      <psName name="longs_l"/>
+      <psName name="longs_longs"/>
+      <psName name="longs_longs_i"/>
+      <psName name="longs_longs_l"/>
+      <psName name="c_k"/>
+      <psName name="f_j"/>
+      <psName name="f_t"/>
+      <psName name="f_f_t"/>
+      <psName name="t_t"/>
+      <psName name="t_z"/>
+      <psName name="c_h"/>
+      <psName name="l_l"/>
+      <psName name="longs_c_h"/>
+      <psName name="longs_k"/>
+      <psName name="longs_s"/>
+      <psName name="longs_longs_k"/>
+      <psName name="longs_longs_t"/>
+    </extraNames>
+  </post>
+
+</ttFont>

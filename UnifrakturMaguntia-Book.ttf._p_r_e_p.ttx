@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont ttLibVersion="2.4">
+
+  <prep>
+    <assembly>
+      PUSHW[ ]  /* 1 value pushed */
+      0
+      CALL[ ]
+      SVTCA[0]
+      PUSHW[ ]  /* 3 values pushed */
+      1 5 2
+      CALL[ ]
+      SVTCA[1]
+      PUSHW[ ]  /* 3 values pushed */
+      6 1 2
+      CALL[ ]
+      SVTCA[1]
+      PUSHW[ ]  /* 8 values pushed */
+      6 56 46 36 23 14 0 8
+      CALL[ ]
+      SVTCA[0]
+      PUSHW[ ]  /* 8 values pushed */
+      1 77 63 49 35 21 0 8
+      CALL[ ]
+      PUSHW[ ]  /* 8 values pushed */
+      2 217 178 127 91 60 0 8
+      CALL[ ]
+      PUSHW[ ]  /* 8 values pushed */
+      3 179 147 127 91 42 0 8
+      CALL[ ]
+      PUSHW[ ]  /* 8 values pushed */
+      4 120 99 77 55 42 0 8
+      CALL[ ]
+      PUSHW[ ]  /* 8 values pushed */
+      5 42 35 27 23 14 0 8
+      CALL[ ]
+      SVTCA[0]
+      PUSHW[ ]  /* 3 values pushed */
+      7 4 7
+      CALL[ ]
+      PUSHW[ ]  /* 1 value pushed */
+      0
+      DUP[ ]
+      RCVT[ ]
+      RDTG[ ]
+      ROUND[01]
+      RTG[ ]
+      WCVTP[ ]
+    </assembly>
+  </prep>
+
+</ttFont>

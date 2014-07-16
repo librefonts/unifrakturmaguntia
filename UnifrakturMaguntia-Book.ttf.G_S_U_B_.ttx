@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont ttLibVersion="2.4">
+
+  <GSUB>
+    <Version value="1.0"/>
+    <ScriptList>
+      <!-- ScriptCount=3 -->
+      <ScriptRecord index="0">
+        <ScriptTag value="DFLT"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=3 -->
+            <FeatureIndex index="0" value="0"/>
+            <FeatureIndex index="1" value="1"/>
+            <FeatureIndex index="2" value="2"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+      <ScriptRecord index="1">
+        <ScriptTag value="hani"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=1 -->
+            <FeatureIndex index="0" value="1"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+      <ScriptRecord index="2">
+        <ScriptTag value="latn"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=3 -->
+            <FeatureIndex index="0" value="0"/>
+            <FeatureIndex index="1" value="1"/>
+            <FeatureIndex index="2" value="2"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+    </ScriptList>
+    <FeatureList>
+      <!-- FeatureCount=3 -->
+      <FeatureRecord index="0">
+        <FeatureTag value="hlig"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="2"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="1">
+        <FeatureTag value="liga"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="1"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="2">
+        <FeatureTag value="rlig"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="0"/>
+        </Feature>
+      </FeatureRecord>
+    </FeatureList>
+    <LookupList>
+      <!-- LookupCount=3 -->
+      <Lookup index="0">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="A">
+            <Ligature components="afii301,E" glyph="AE"/>
+          </LigatureSet>
+          <LigatureSet glyph="O">
+            <Ligature components="afii301,E" glyph="OE"/>
+          </LigatureSet>
+          <LigatureSet glyph="a">
+            <Ligature components="afii301,e" glyph="ae"/>
+          </LigatureSet>
+          <LigatureSet glyph="c">
+            <Ligature components="afii301,h" glyph="c_h"/>
+            <Ligature components="afii301,k" glyph="c_k"/>
+            <Ligature components="h" glyph="c_h"/>
+            <Ligature components="k" glyph="c_k"/>
+          </LigatureSet>
+          <LigatureSet glyph="f">
+            <Ligature components="afii301,f,afii301,l" glyph="uniFB04"/>
+            <Ligature components="afii301,f,afii301,i" glyph="uniFB03"/>
+            <Ligature components="afii301,f,afii301,t" glyph="f_f_t"/>
+            <Ligature components="afii301,l" glyph="uniFB02"/>
+            <Ligature components="afii301,i" glyph="uniFB01"/>
+            <Ligature components="afii301,f" glyph="uniFB00"/>
+            <Ligature components="afii301,t" glyph="f_t"/>
+            <Ligature components="afii301,j" glyph="f_j"/>
+          </LigatureSet>
+          <LigatureSet glyph="l">
+            <Ligature components="afii301,l" glyph="l_l"/>
+          </LigatureSet>
+          <LigatureSet glyph="longs">
+            <Ligature components="afii301,longs,afii301,t" glyph="longs_longs_t"/>
+            <Ligature components="afii301,longs,afii301,k" glyph="longs_longs_k"/>
+            <Ligature components="afii301,c,afii301,h" glyph="longs_c_h"/>
+            <Ligature components="afii301,longs,afii301,l" glyph="longs_longs_l"/>
+            <Ligature components="afii301,longs,afii301,i" glyph="longs_longs_i"/>
+            <Ligature components="afii301,s" glyph="longs_s"/>
+            <Ligature components="afii301,k" glyph="longs_k"/>
+            <Ligature components="afii301,t" glyph="uniFB05"/>
+            <Ligature components="afii301,longs" glyph="longs_longs"/>
+            <Ligature components="afii301,l" glyph="longs_l"/>
+            <Ligature components="afii301,i" glyph="longs_i"/>
+            <Ligature components="afii301,h" glyph="longs_h"/>
+            <Ligature components="afii301,z" glyph="germandbls"/>
+            <Ligature components="t" glyph="uniFB05"/>
+          </LigatureSet>
+          <LigatureSet glyph="o">
+            <Ligature components="afii301,e" glyph="oe"/>
+          </LigatureSet>
+          <LigatureSet glyph="t">
+            <Ligature components="afii301,z" glyph="t_z"/>
+            <Ligature components="afii301,t" glyph="t_t"/>
+            <Ligature components="z" glyph="t_z"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="1">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="c">
+            <Ligature components="h" glyph="c_h"/>
+            <Ligature components="k" glyph="c_k"/>
+          </LigatureSet>
+          <LigatureSet glyph="f">
+            <Ligature components="f,l" glyph="uniFB04"/>
+            <Ligature components="f,t" glyph="f_f_t"/>
+            <Ligature components="f,i" glyph="uniFB03"/>
+            <Ligature components="f" glyph="uniFB00"/>
+            <Ligature components="t" glyph="f_t"/>
+            <Ligature components="i" glyph="uniFB01"/>
+            <Ligature components="j" glyph="f_j"/>
+            <Ligature components="l" glyph="uniFB02"/>
+          </LigatureSet>
+          <LigatureSet glyph="k">
+            <Ligature components="afii301,g" glyph="uni338F"/>
+          </LigatureSet>
+          <LigatureSet glyph="l">
+            <Ligature components="l" glyph="l_l"/>
+          </LigatureSet>
+          <LigatureSet glyph="longs">
+            <Ligature components="c,h" glyph="longs_c_h"/>
+            <Ligature components="longs,l" glyph="longs_longs_l"/>
+            <Ligature components="longs,k" glyph="longs_longs_k"/>
+            <Ligature components="longs,i" glyph="longs_longs_i"/>
+            <Ligature components="longs,t" glyph="longs_longs_t"/>
+            <Ligature components="longs" glyph="longs_longs"/>
+            <Ligature components="l" glyph="longs_l"/>
+            <Ligature components="k" glyph="longs_k"/>
+            <Ligature components="i" glyph="longs_i"/>
+            <Ligature components="t" glyph="uniFB05"/>
+            <Ligature components="h" glyph="longs_h"/>
+            <Ligature components="c_h" glyph="longs_c_h"/>
+            <Ligature components="s" glyph="longs_s"/>
+          </LigatureSet>
+          <LigatureSet glyph="m">
+            <Ligature components="uni0304" glyph="m_uni0304"/>
+          </LigatureSet>
+          <LigatureSet glyph="n">
+            <Ligature components="uni0304" glyph="n_uni0304"/>
+          </LigatureSet>
+          <LigatureSet glyph="t">
+            <Ligature components="t" glyph="t_t"/>
+            <Ligature components="z" glyph="t_z"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="2">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="m">
+            <Ligature components="m" glyph="m_uni0304"/>
+          </LigatureSet>
+          <LigatureSet glyph="n">
+            <Ligature components="n" glyph="n_uni0304"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+    </LookupList>
+  </GSUB>
+
+</ttFont>
