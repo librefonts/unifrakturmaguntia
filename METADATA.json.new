@@ -1,0 +1,33 @@
+{
+  "name": "UnifrakturMaguntia",
+  "designer": "j. 'mach' wust",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 45486,
+  "fonts": [
+    {
+      "name": "UNKNOWN",
+      "style": "normal",
+      "weight": 400,
+      "filename": "UnifrakturMaguntia.ttf",
+      "postScriptName": "UnifrakturMaguntia",
+      "fullName": "UnifrakturMaguntia",
+      "copyright": "Copyright (c) 2010 j. 'mach' wust with Reserved Font Name UnifrakturMaguntia.\nCopyright (c) 2009 Peter Wiegel.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1."
+    },
+    {
+      "name": "UNKNOWN",
+      "style": "normal",
+      "weight": 400,
+      "filename": "UnifrakturMaguntia-Book.ttf",
+      "postScriptName": "UnifrakturMaguntia",
+      "fullName": "UnifrakturMaguntia",
+      "copyright": "Copyright (c) 2010 j. 'mach' wust with Reserved Font Name UnifrakturMaguntia.\nCopyright (c) 2009 Peter Wiegel.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2010-11-30"
+}
